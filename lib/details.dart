@@ -13,7 +13,9 @@ class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Details Page')),
+      appBar: AppBar(
+        backgroundColor: Colors.purple,
+        title: Text('Details Page')),
       body: Center(child: Text('Meetups details ')),
     );
   }

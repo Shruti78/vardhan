@@ -8,6 +8,7 @@ class Listpage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.purple,
         title: Text("Meet Up List"),
       ),
       body: _buildListView(context),
@@ -27,7 +28,7 @@ class Listpage extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>  MyWidget(
+                      builder: (context) => MyWidget(
                         index: 10,
                       ),
                     ),

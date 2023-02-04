@@ -64,6 +64,9 @@ class _QRViewExampleState extends State<QRViewExample> {
                               },
                             )),
                       ),
+                      SizedBox(
+                        width: 30,
+                      ),
                       Container(
                         margin: const EdgeInsets.all(8),
                         child: ElevatedButton(
@@ -98,6 +101,9 @@ class _QRViewExampleState extends State<QRViewExample> {
                           child: const Text('pause',
                               style: TextStyle(fontSize: 20)),
                         ),
+                      ),
+                      SizedBox(
+                        width: 30,
                       ),
                       Container(
                         margin: const EdgeInsets.all(8),
